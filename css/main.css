@@ -1,7 +1,46 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  font-family: Lato; sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  padding: .4em .75em .5em
+  vertical-align: middle;
+}
+
+.picture {
+  display: inline-block;
+  max-width: 25em;
+
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+}
+
+section {
+  padding: .4em .75em .5em;
+}
+
+.text a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #eee9de;
+  border: 2.5px solid #333;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bold;
 }
