@@ -12,10 +12,13 @@ html {
 body {
   margin: 0;
   padding: 0;
+  vertical-align: middle;
 }
 
 section {
   padding: 2em 0;
+  margin: 0;
+  vertical-align: middle;
 }
 
 img {
@@ -28,6 +31,7 @@ img {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  vertical-align: middle;
 }
 
 .text {
@@ -35,11 +39,11 @@ img {
   max-width: 25em;
   padding: 1em;
   text-align: left;
+  vertical-align: middle;
 }
 
 .text a {
   display: inline-block;
-  vertical-align: middle;
   background-color: #eee9de;
   padding: .4em .75em .5em;
   border: 2.5px solid #333;
