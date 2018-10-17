@@ -18,7 +18,7 @@ body {
 section {
   padding: 2em 0;
   margin: 0;
-  vertical-align: middle;
+  text-align: center;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
   max-width: 25em;
 }
 
-.btn {
+.picture {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
@@ -42,7 +42,7 @@ img {
   vertical-align: middle;
 }
 
-.text a {
+.btn {
   display: inline-block;
   background-color: #eee9de;
   padding: .4em .75em .5em;
@@ -54,7 +54,7 @@ img {
   text-align: center;
 }
 
-.text a:hover {
+.btn:hover {
   color: #666;
 }
 
